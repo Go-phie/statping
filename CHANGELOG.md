@@ -1,3 +1,16 @@
+# 0.90.72 (10-28-2020)
+- Fixed issue with graphs becoming stuck on reload
+
+# 0.90.71 (10-13-2020)
+- Reverted Docker user in Dockerfile
+
+# 0.90.70 (10-1-2020)
+- Merged PR #806 - Enhance GRPC Monitoring
+- Merged PR #692 - When login fields are autofilled the sign in button should be enabled
+- Modified multiple Vue forms to use number models for integer inputs
+- Fixed page freeze issue for incidents https://github.com/statping/statping/issues/842
+- Modified cache routine from 5 seconds to 60 seconds
+
 # 0.90.69 (09-18-2020)
 - Fixed issue with service view not loading. #808 #811 #800
 
